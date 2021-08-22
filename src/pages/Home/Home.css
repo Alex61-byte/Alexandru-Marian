@@ -1,0 +1,86 @@
+
+
+#lower-part h1{
+    font-size: 22px;
+}
+
+h2{
+    color:white;
+}
+h3{
+    color: white;
+}
+
+
+.row-fluid{
+    margin-top: 50px;
+    display: inline-flex;
+}
+
+@media screen and (max-width: 425px){
+    .container-fluid{
+        width: 100%;
+    }
+    .row-fluid{
+        display: flex;
+        flex-direction: column;
+    }
+    #lower-part p{
+        margin-left: 10px;
+    }
+}
+
+
+
+#page-content{
+    margin-top: 0px;
+    background-image: url(../../Pics/blue-1634110.png);
+    background-size: cover;
+    min-height: 937px;
+    overflow: hidden;
+}
+
+#lower-part{
+    margin-top: 50px;
+    text-align: center;
+}
+
+img{
+    border-radius: 7px;
+}
+
+
+h4{
+    color: whitesmoke;
+}
+p{
+    color: whitesmoke;
+    font-size: 18px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+#description h4{
+margin: 30px;
+}
+
+#nav{
+    animation-name: moveRight;
+    animation-duration: 4s;
+    animation-iteration-count: 1;
+
+
+}
+
+@keyframes moveRight{
+    from{
+        transform: translateX(-1000px);
+    }
+    to{
+        transform: translateX(0px);
+    }
+}
+
+#description .container{
+    border: none;
+}

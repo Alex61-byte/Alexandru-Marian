@@ -1,0 +1,38 @@
+import React from 'react'
+import './Koln.css'
+import crane from '../../Pics/Travels/CraneHomes-CGN.jpg'
+import church from '../../Pics/Travels/church.jpg'
+import bridge from '../../Pics/Travels/Hohentzollern Bridge.jpg'
+import { Image } from 'react-bootstrap'
+
+
+
+const locations = [{ id: "01", city: "Koln", place1: "Kolner Dom ", descriptionplace1: "Cathedral Church of Saint Peter: It has an impressive arhitecture and curently is the tallest twin-spired church in the world. You can also take a walk on the Rhine's promenade where you can observe 3 impresive buildings that look the same with a modern arhitecture The Crane Homes and also the Hohentollern Bridge witch was built between 1907 and 1911, ", descriptioncity1: "Koln is a City situated in the land of  North Rhine-Westphalia, its a very animated city , there are many institutions of higher education in the city, most notably the University of Cologne, one of Europe's oldest and largest universities", src1: crane, src2: church, alt: "Crane Homes", alt1: "Cologne Cathedral", alt2: "Hohentzollern Bridge", src3: bridge }]
+
+
+function Koln() {
+    const citiesList = locations.map((location) =>
+        <div className="row-fluid" key={location.id} id="koln-container">
+            <div className="col-sm-6">
+                <Image src={location.src1} fluid width="40%"/>
+                <Image src={location.src2} fluid width="40%"/>
+                <Image src={location.src3} fluid width="40%"/>
+
+
+            </div>
+            <div className="col-sm-6" id="koln-description">
+                <h4> {location.descriptioncity1}</h4>
+                <p>{location.descriptionplace1}</p>
+
+
+            </div>
+        </div>
+
+    );
+
+    return (
+        <div className="container-fluid">{citiesList}</div>
+    )
+}
+
+export default Koln;

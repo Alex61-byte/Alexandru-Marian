@@ -1,0 +1,43 @@
+
+
+.carousel-control-prev-icon{
+    border: 2px solid orangered;
+    color: orangered;
+    font-size: 24px;
+}
+.carousel-control-next-icon{
+    color: orangered;
+}
+
+#berlin-description{
+    border-left:1px solid white ;
+    border-top:1px solid white;
+    border-bottom: 1px solid white;
+   
+}
+
+
+@media screen and(max-width:1024px) {
+    #berlin-description{
+        max-width: 100%;
+        border-left:1px solid white ;
+    border-top:1px solid white;
+    border-bottom: 1px solid white;
+    }
+   .row-fluid{
+       padding: 0px;
+       display: inline-flex;
+       flex-direction: column;
+       justify-content: center;
+   }
+   
+   .col-sm-8{
+    flex:100%;
+    width: 100%;
+   }
+   .col-sm-4{
+       flex:100%;
+       width: 100%;
+   }
+    
+}

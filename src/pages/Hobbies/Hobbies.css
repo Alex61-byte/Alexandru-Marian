@@ -1,0 +1,73 @@
+#hobbies{
+    background-color: rgb(33, 33, 63) ;;
+   background-size: cover;
+   min-height: 945px;
+    
+    margin: 0px;
+    width: 100%;
+    animation-name: backround-change;
+    animation-duration: 5s;
+    position:absolute;
+   
+    
+}
+#content-container{
+    min-height: calc(100vh - 80px);
+}
+
+@keyframes backround-change{
+    50%{ background-color:rgb(31, 143, 124) ;}
+}
+
+.hobby-list{
+    list-style-type: none;
+    text-align: center;
+    margin-top: 200px;
+   
+}
+
+.hobby-list li{
+    margin-top: 30px;
+}
+
+
+@media screen and (max-width:1024px) {
+    .hobby-list{
+        margin-left:0px;
+        text-align: center;
+
+    }
+    #country-container{
+        padding: 0px;
+    }
+    .hobby-list{
+        padding-left: 15px;
+    }
+    #germany-container{
+        padding: 5px;
+    }
+    #koln-container{
+        padding: 0px;
+        font-size: small;
+
+    }
+    #koln-description h4{
+        font-size: 14px;
+    }
+    .container-fluid{
+        padding: 0px;
+    }
+    #spain-container{
+        padding: 0px;
+    }
+    #header h2{
+        font-weight: bolder;
+        font-size: medium;
+    }
+
+    
+}
+
+*{
+    box-sizing: border-box;
+}

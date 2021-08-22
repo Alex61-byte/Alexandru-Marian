@@ -1,0 +1,56 @@
+
+#description-me h2 {
+    font-family:'PinyonScriptRegular' ;
+    font-weight: bolder;
+    font-size: 40px;
+}
+#description-me h3{
+    font-family:'PinyonScriptRegular';
+    font-size: 30px;
+    font-weight: bold;
+}
+
+#description-me h3 {
+    padding-top: 20px;
+    margin-bottom: 20px;
+    animation-name:moveRight;
+    animation-duration: 4s;
+    
+}
+#description-me h2{
+    padding-top: 10px;
+    margin-bottom: 20px;
+    animation-name:moveRight;
+    animation-duration: 4s;
+}
+
+@keyframes moveRight{
+    from {
+        transform: translateX(-1200px);
+      }
+      to {
+        transform: translateX(0px);
+      }
+  
+}
+
+#description-me h4{
+    animation-name: moveLeft;
+    animation-duration: 4s;
+    animation-delay: 0s;
+}
+
+@keyframes moveLeft{
+    from{
+        transform:translateX(2000px)
+    }
+    to{
+        transform: translateX(0px)
+    }
+}
+
+#description-me{
+    padding: 10px;
+    border: none;
+}
+

@@ -1,0 +1,11 @@
+.contact-box{
+    background-color: teal;
+    
+    padding: 4px;
+    border: 4px solid gray;
+    border-radius: 5px;
+}
+
+#contact h1{
+    margin: 0;
+}

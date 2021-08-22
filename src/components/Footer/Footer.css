@@ -1,0 +1,24 @@
+.footer{
+    left: 0;
+    bottom: 0;
+    text-align: center;
+    position: relative;
+    padding-bottom: 10px;   
+    background-color: lightslategray;
+    display: block;
+    font-weight: bolder;
+   
+}
+.name{
+    font-size: 30px;
+}
+
+@media screen and (max-width:485px) {
+    .footer{
+        left: 0;
+        bottom: 0;
+    }
+    .footer .contact{
+        display: none;
+    }
+}

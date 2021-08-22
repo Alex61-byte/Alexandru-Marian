@@ -1,0 +1,19 @@
+#descript{
+    animation-name: slideIn;
+    animation-duration: 4s;
+}
+.link{
+    background-color: transparent;
+}
+Button{
+    text-decoration: none;
+    background-color: rgb(25, 25, 250);
+}
+@keyframes  slideIn{
+    from {
+        margin-left:100%
+    }
+    to{
+        margin-left: 0%;
+    }
+}
