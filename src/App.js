@@ -7,8 +7,9 @@ import Hobbies from './pages/Hobbies'
 import Tehnical from './pages/Tehnical'
 import {
   BrowserRouter,
-  Switch,
+  
   Route,
+  HashRouter,
 
 
 } from "react-router-dom";
@@ -23,7 +24,7 @@ function App() {
     <BrowserRouter>
      <div className="app">
         
-        <Switch>
+        <HashRouter>
           <Route path="/online-cv">
             <MyOnlineCv />
           </Route>
@@ -36,7 +37,7 @@ function App() {
           <Route path="/">
             <Home />
           </Route>
-        </Switch>
+          </HashRouter>
       </div>
 
       </BrowserRouter>
