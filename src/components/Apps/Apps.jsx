@@ -1,7 +1,7 @@
 
 
 import React from'react'
-import { Button, Col, Container, Image, Row,} from 'react-bootstrap';
+
 import blog from'../../Pics/Apps/blogv1.png'
 import blogv2 from'../../Pics/Apps/blog responsive.png'
 import comment from'../../Pics/Apps/comment box.jpg'
@@ -30,26 +30,27 @@ const apps=[
     {id:"06",name:"Random Images,Jokes,Animals",description:"A funny app Built with HTML, CSS And JavaScript using Fetch GET methon from Api's",src:random,link:"https://github.com/Alex61-byte/api-fetch-get"},
     {id:"07",name:"Todo App",description:"Todo app Built using JavaScript,HTML and CSS, a server in Node Js was used to Fetch GET,POST,PUT and DELETE.",src:todo,link:"https://github.com/Alex61-byte/todoAppVanillaJs"},
     {id:"08",name:"Digital Counter",description:"Digital counter functions developed in JavaSript, the counter can start , stop, reset and save ",src:counter,link:"https://github.com/Alex61-byte/digital-counter"},
-    {id:"09",name:"Space Ships",description:" Space Ships has been built using Javascript OOP concepts, a ship can be controled by the keyboard arrows but only it has been activated with a click.",src:ships,link:""},
+    {id:"09",name:"Space Ships",description:" Space Ships has been built using Javascript OOP concepts, a ship can be controled by the keyboard arrows but only it has been activated with a click.",src:ships,link:"https://github.com/Alex61-byte/space-ships"},
     {id:"10",name:"Todo App with React",description:"Well this Todo app has been built with react has the same functionalities like the other.",src:reacttodo,link:"https://github.com/Alex61-byte/Todo-app-React"}
 ];
 
 function Apps(){
+    
     const appList=apps.map((app)=>
-    <Row className="row-fluid" key={app.id} >
-        <Col sm={8} id="descript" >
+    <div className="row-fluid" key={app.id}>
+        <div className="col-sm-6" id="descript">
             <h1>{app.name}</h1>
             <p>{app.description}</p>
-            <Button  href={app.link}  rel="noopener noreferrer" target="_blank">See the code on Github</Button>
-        </Col>
-        <Col sm={4} id="image">
-            <Image src={app.src} alt={app.name} fluid width="50%" />
-        </Col>
-    </Row>
+            <a href={app.link} className="btn btn-primary " rel="noopener noreferrer" target="_blank">See the code on Github</a>
+        </div>
+        <div className="col-sm-6" id="image">
+            <img src={app.src} alt={app.name} className="img-fluid" />
+        </div>
+    </div>
     
     )
     return(
-        <Container fluid style={{marginLeft:30}}>{appList}</Container>
+        <div className="container-fluid">{appList}</div>
     )
 }
 

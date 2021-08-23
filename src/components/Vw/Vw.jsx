@@ -1,5 +1,7 @@
 import React from 'react'
 import './Vw.css'
+import golfh from '../../Pics/Cars/Vw hatch.jpg'
+import golfV from '../../Pics/Cars/Variant.jpg'
 
 
 function Vw(){
@@ -12,11 +14,11 @@ function Vw(){
          <div className="row-fluid">
              <div className="col-sm-6">
                  <p>Volkswagen Golf Hatch</p>
-                 <img src="../../src/Pics/Cars/Vw hatch.jpg" alt="Golf Hatch" className="img-fluid" />
+                 <img src={golfh} alt="Golf Hatch" className="img-fluid" />
              </div>
              <div className="col-sm-6">
                  <p>Volkswagen Golf Variant</p>
-                 <img src="../../src/Pics/Cars/Variant.jpg" alt="Golf Variant" className="img-fluid" />
+                 <img src={golfV} alt="Golf Variant" className="img-fluid" />
              </div>
          </div>
         </div>

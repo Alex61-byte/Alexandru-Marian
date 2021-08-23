@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React from 'react'
 import Berlin from '../Berlin';
 import Koln from '../Koln';
 import './Germany.css'

@@ -1,6 +1,6 @@
 import React from 'react'
 import './HomeAside.css'
-
+import MeTraveling from '../../Pics/me at Acropolis Final.jpg'
 
 
 function HomeAside(){
@@ -8,7 +8,7 @@ function HomeAside(){
         
             <div className="col">
                 <h1>One of my hobbies is travelling</h1>
-            <img src="/src/Pics/me at Acropolis Final.jpg" alt="Me" width="100%"  />
+            <img src={MeTraveling} alt="Me" width="100%"  />
             </div>
             
        

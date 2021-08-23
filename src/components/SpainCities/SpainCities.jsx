@@ -1,6 +1,6 @@
 import React from 'react'
 import './SpainCities.css'
-import{Image,Row,Col}from'react-bootstrap'
+
 import guell from '../../Pics/Travels/Parc Guell.jpg'
 import church from '../../Pics/Travels/Sagrada Familia.jpg'
 import science from '../../Pics/Travels/City of Arts and Science.jpg'
@@ -19,21 +19,18 @@ const SpainCities = [
 
 function SpainCity() {
     const spainList = SpainCities.map((city) =>
-        <Row className="row" id="city-row" key={city.id}>
-            <Col>
-               
-                <Image src={city.src1} className="img-fluid" alt="image" width="30%" style={{margin:10}} />
-                <Image src={city.src2} alt="image" className="img-fluid" width="30%" style={{margin:10}} />
-                
-                
-            </Col>
-            <Col >
+        <div className="row" id="city-row" key={city.id}>
+            <div className="col-sm-6">
+                <img src={city.src1} className="img-fluid" alt="city" width="50%" />
+                <img src={city.src2} alt="city" className="img-fluid" width="50%" />
+            </div>
+            <div className="col-sm-6">
                 <h1>{city.city}</h1>
                 <p>{city.citydescription}</p>
-            </Col>
+            </div>
 
             
-        </Row>
+        </div>
     );
 
     return (

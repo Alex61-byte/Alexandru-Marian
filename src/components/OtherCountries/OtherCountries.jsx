@@ -1,16 +1,32 @@
 import React, { useState } from 'react'
-import SpainCity from '../SpainCities'
 import './OtherCountries.css'
+import greece1 from'../../Pics/Travels/athens.jpg'
+import greeceF from '../../Pics/Travels/greec flag.jpg'
+import sweden1 from '../../Pics/Travels/stockholm.jpg'
+import swedenF from '../../Pics/Travels/sweden flag.jpg'
+import ceh1 from '../../Pics/Travels/prague.jpg'
+import cehF from '../../Pics/Travels/czech-flag.jpg'
+import slova1 from '../../Pics/Travels/bratislava.jpg'
+import slovaF from '../../Pics/Travels/slovakia-flag.jpg'
+import uk1 from '../../Pics/Travels/london.jpg'
+import ukF from '../../Pics/Travels/uk-flag.jpg'
+import slo1 from '../../Pics/Travels/lublijana.jpg'
+import sloF from '../../Pics/Travels/slovenia-flag.jpg'
+import at1 from '../../Pics/Travels/salzburg.jpg'
+import atF from '../../Pics/Travels/austria-flag.jpg'
+import ch1 from '../../Pics/Travels/geneve.jpg'
+import chF from '../../Pics/Travels/swiss-flag.jpg'
+
 
 const countries=[
-    {id:"01",name:"Greece",src:"../../src/Pics/Travels/athens.jpg",src1:"../../src/Pics/Travels/greec flag.jpg",description:"From my point of view greek people realy know how to do tourism."},
-    {id:"02",name:"Sweden",src:"../../src/Pics/Travels/stockholm.jpg",src1:"../../src/Pics/Travels/sweden flag.jpg",description:"In one word it whould be Civilisation"},
-    {id:"03",name:"Czech Republic",src:"../../src/Pics/Travels/prague.jpg",src1:"../../src/Pics/Travels/czech-flag.jpg",description:"A very intresting country,i liked a lot Prague,you can find realy intresting places in Prague to visit"},
-    {id:"04",name:"Slovakia",src:"../../src/Pics/Travels/bratislava.jpg",src1:"../../src/Pics/Travels/slovakia-flag.jpg",description:"Bratislava the capital of Slovakia has a lot to offer fot turists, nice pedestrian streets with restaurants and you can also visit Bratislava Castle or the Tower of Television "},
-    {id:"05",name:"UK",src:"../../src/Pics/Travels/london.jpg",src1:"../../src/Pics/Travels/uk-flag.jpg",description:"From Uk I liked the most Scotland and its beatifull cities."},
-    {id:"06",name:"Slovenia",src:"../../src/Pics/Travels/lublijana.jpg",src1:"../../src/Pics/Travels/slovenia-flag.jpg",description:"In Slovenia i liked the capital,Lublijana, it has a nice fortress near the city center and you can also see the Dragon Bridge "},
-    {id:"07",name:"Austria",src:"../../src/Pics/Travels/salzburg.jpg",src1:"../../src/Pics/Travels/austria-flag.jpg",description:"Austria a country were i have been lots of times amd were i will defenetly return. it has great infrastructure and a lot of places to visit."},
-    {id:"08",name:"Switzerland",src:"../../src/Pics/Travels/geneve.jpg",src1:"../../src/Pics/Travels/swiss-flag.jpg",description:"Switzerland, an expensive country for those who don't live there, but a very impresive country in the same time, nice mountain views and lakes."}
+    {id:"01",name:"Greece",src:greece1,src1:greeceF,description:"From my point of view greek people realy know how to do tourism."},
+    {id:"02",name:"Sweden",src:sweden1,src1:swedenF,description:"In one word it whould be Civilisation"},
+    {id:"03",name:"Czech Republic",src:ceh1,src1:cehF,description:"A very intresting country,i liked a lot Prague,you can find realy intresting places in Prague to visit"},
+    {id:"04",name:"Slovakia",src:slova1,src1:slovaF,description:"Bratislava the capital of Slovakia has a lot to offer fot turists, nice pedestrian streets with restaurants and you can also visit Bratislava Castle or the Tower of Television "},
+    {id:"05",name:"UK",src:uk1,src1:ukF,description:"From Uk I liked the most Scotland and its beatifull cities."},
+    {id:"06",name:"Slovenia",src:slo1,src1:sloF,description:"In Slovenia i liked the capital,Lublijana, it has a nice fortress near the city center and you can also see the Dragon Bridge "},
+    {id:"07",name:"Austria",src:at1,src1:atF,description:"Austria a country were i have been lots of times amd were i will defenetly return. it has great infrastructure and a lot of places to visit."},
+    {id:"08",name:"Switzerland",src:ch1,src1:chF,description:"Switzerland, an expensive country for those who don't live there, but a very impresive country in the same time, nice mountain views and lakes."}
     
 ]
 
