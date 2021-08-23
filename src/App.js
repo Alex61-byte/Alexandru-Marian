@@ -7,9 +7,10 @@ import Hobbies from './pages/Hobbies'
 import Tehnical from './pages/Tehnical'
 import {
   BrowserRouter,
-  
+
   Route,
-  HashRouter,
+  
+  Switch,
 
 
 } from "react-router-dom";
@@ -22,9 +23,9 @@ function App() {
 
   return (
     <BrowserRouter>
-     <div className="app">
-        
-        <HashRouter>
+      <div className="app">
+
+        <Switch>
           <Route path="/online-cv">
             <MyOnlineCv />
           </Route>
@@ -32,18 +33,18 @@ function App() {
             <Hobbies />
           </Route>
           <Route path="/tehnical">
-            <Tehnical/>
+            <Tehnical />
           </Route>
           <Route path="/">
             <Home />
           </Route>
-          </HashRouter>
+        </Switch>
       </div>
 
-      </BrowserRouter>
-      );
+    </BrowserRouter>
+  );
 
-  
+
 }
 
-      export default App;
+export default App;

@@ -22,7 +22,6 @@ function Hobbies(){
             <li ><Countries/></li>
             <li><Cars/></li>
             <li><Games/></li>
-
         </ul>
         <BackToTop/>
         </div>
