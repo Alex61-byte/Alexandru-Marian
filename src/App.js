@@ -6,14 +6,17 @@ import MyOnlineCv from './pages/MyOnlineCv'
 import Hobbies from './pages/Hobbies'
 import Tehnical from './pages/Tehnical'
 import {
-  BrowserRouter,
+  
+
+  HashRouter,
 
   Route,
   
-  Switch,
+  
 
 
 } from "react-router-dom";
+
 
 
 
@@ -22,29 +25,23 @@ function App() {
 
 
   return (
-    <BrowserRouter>
-      <div className="app">
+    <HashRouter basename="/">
+      <div id="app">
+           
+          
+            <Route exact path="/" component={Home} />
 
-        <Switch>
-          <Route path="/online-cv">
-            <MyOnlineCv />
-          </Route>
-          <Route path="/hobbies">
-            <Hobbies />
-          </Route>
-          <Route path="/tehnical">
-            <Tehnical />
-          </Route>
-          <Route path="/">
-            <Home />
-          </Route>
-        </Switch>
-      </div>
+            <Route path="/online-cv" component={MyOnlineCv} />
+            <Route path="/hobbies" component={Hobbies} />
+            <Route path="/tehnical" component={Tehnical} />
+          
+        </div>
+        
 
-    </BrowserRouter>
-  );
+    </HashRouter>
+      );
 
 
 }
 
-export default App;
+      export default App;
