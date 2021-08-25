@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/alexandru-marian/static/css/main.8853c7c0.chunk.css",
-    "main.js": "/alexandru-marian/static/js/main.12ebb99f.chunk.js",
-    "main.js.map": "/alexandru-marian/static/js/main.12ebb99f.chunk.js.map",
-    "runtime-main.js": "/alexandru-marian/static/js/runtime-main.efe9e973.js",
-    "runtime-main.js.map": "/alexandru-marian/static/js/runtime-main.efe9e973.js.map",
-    "static/js/2.a8a6b200.chunk.js": "/alexandru-marian/static/js/2.a8a6b200.chunk.js",
-    "static/js/2.a8a6b200.chunk.js.map": "/alexandru-marian/static/js/2.a8a6b200.chunk.js.map",
-    "static/js/3.e832c931.chunk.js": "/alexandru-marian/static/js/3.e832c931.chunk.js",
-    "static/js/3.e832c931.chunk.js.map": "/alexandru-marian/static/js/3.e832c931.chunk.js.map",
+    "main.css": "/alexandru-marian/static/css/main.3b7f03ae.chunk.css",
+    "main.js": "/alexandru-marian/static/js/main.486a05e8.chunk.js",
+    "main.js.map": "/alexandru-marian/static/js/main.486a05e8.chunk.js.map",
+    "runtime-main.js": "/alexandru-marian/static/js/runtime-main.affd7b88.js",
+    "runtime-main.js.map": "/alexandru-marian/static/js/runtime-main.affd7b88.js.map",
+    "static/js/2.9286f1dd.chunk.js": "/alexandru-marian/static/js/2.9286f1dd.chunk.js",
+    "static/js/2.9286f1dd.chunk.js.map": "/alexandru-marian/static/js/2.9286f1dd.chunk.js.map",
+    "static/js/3.346548af.chunk.js": "/alexandru-marian/static/js/3.346548af.chunk.js",
+    "static/js/3.346548af.chunk.js.map": "/alexandru-marian/static/js/3.346548af.chunk.js.map",
     "index.html": "/alexandru-marian/index.html",
-    "static/css/main.8853c7c0.chunk.css.map": "/alexandru-marian/static/css/main.8853c7c0.chunk.css.map",
-    "static/js/2.a8a6b200.chunk.js.LICENSE.txt": "/alexandru-marian/static/js/2.a8a6b200.chunk.js.LICENSE.txt",
+    "static/css/main.3b7f03ae.chunk.css.map": "/alexandru-marian/static/css/main.3b7f03ae.chunk.css.map",
+    "static/js/2.9286f1dd.chunk.js.LICENSE.txt": "/alexandru-marian/static/js/2.9286f1dd.chunk.js.LICENSE.txt",
     "static/media/911.e85dbb72.jpg": "/alexandru-marian/static/media/911.e85dbb72.jpg",
     "static/media/911then.b57e25f4.jpg": "/alexandru-marian/static/media/911then.b57e25f4.jpg",
     "static/media/Alex-Cv.fcc369f6.jpg": "/alexandru-marian/static/media/Alex-Cv.fcc369f6.jpg",
@@ -62,9 +62,9 @@
     "static/media/valencia2.ffb096df.jpg": "/alexandru-marian/static/media/valencia2.ffb096df.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.efe9e973.js",
-    "static/js/2.a8a6b200.chunk.js",
-    "static/css/main.8853c7c0.chunk.css",
-    "static/js/main.12ebb99f.chunk.js"
+    "static/js/runtime-main.affd7b88.js",
+    "static/js/2.9286f1dd.chunk.js",
+    "static/css/main.3b7f03ae.chunk.css",
+    "static/js/main.486a05e8.chunk.js"
   ]
 }
