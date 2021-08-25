@@ -9,7 +9,7 @@ import Footer from '../../components/Footer/Footer'
 function Tehnical(){
     return(
         <div className="container-fluid" id="technical">
-            <div className="container-fluid">
+            <div className="container-fluid" id="content-container">
             <Nav/>
             <AppsHeader/>
             <Apps/>

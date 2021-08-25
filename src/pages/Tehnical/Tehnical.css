@@ -3,5 +3,11 @@
     background-size:inherit;
     text-align: center;
     overflow: hidden;
+    min-height: calc(100vh - 58px);
+    
 }
 
+
+.btn-container{
+   margin: 10px;
+}
