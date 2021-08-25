@@ -1,7 +1,7 @@
 #hobbies{
     background-color: rgb(33, 33, 63) ;;
    background-size: cover;
-   min-height: 945px;
+   
     
     margin: 0px;
     width: 100%;
@@ -9,8 +9,9 @@
     animation-duration: 5s;
     position:absolute;
    
-    
+    min-height: calc(100vh - 40px);
 }
+
 #content-container{
     min-height: calc(100vh - 80px);
 }

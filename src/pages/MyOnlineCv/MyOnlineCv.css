@@ -1,14 +1,19 @@
 #my-cv-container{
-    background-image: linear-gradient(to bottom, tan,rgb(247, 178, 82));
-    background-size:auto;
+    background-color: burlywood;
+    background-size:cover;
+    background-repeat: repeat;
     min-height: fit-content;
     min-width: fit-content;
     margin-bottom: 0;
     padding-bottom: 0;
-  
+    min-height: calc(100vh - 80px);
+
        
 }
-
+#content-container{
+    min-height: calc(100vh - 58px);
+    
+}
 #nav{
     margin-top: 0;
 }
@@ -16,7 +21,11 @@
 .row-fluid{
     max-width:max-content;
     height: max-content;
+  
 }
+
+
+
 
 @media screen and (max-width: 480px){
     #my-cv-container{

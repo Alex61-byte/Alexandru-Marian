@@ -1,18 +1,18 @@
 .footer{
     left: 0;
-    bottom: 0;
+    bottom: 0px;
     text-align: center;
     position: relative;
     padding-bottom: 0;   
     background-color: lightslategray;
-    display: block;
+   
     font-weight: bolder;
-    margin: 0;
-    padding: 0;
+   
+    border-radius: 50px;
    
 }
 .name{
-    font-size: 25px;
+    font-size: 20px;
 }
 
 @media screen and (max-width:485px) {
