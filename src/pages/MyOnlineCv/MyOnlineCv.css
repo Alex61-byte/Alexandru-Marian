@@ -1,21 +1,28 @@
 #my-cv-container{
     background-image: linear-gradient(to bottom, tan,rgb(247, 178, 82));
-    background-size: cover;
+    background-size:auto;
     min-height: fit-content;
     min-width: fit-content;
-    min-height: 945px;
-    min-height: calc(100vh - 58px);    
-    overflow: hidden;
+    margin-bottom: 0;
+    padding-bottom: 0;
+  
+       
+}
+
+#nav{
+    margin-top: 0;
 }
 
 .row-fluid{
     max-width:max-content;
+    height: max-content;
 }
 
 @media screen and (max-width: 480px){
     #my-cv-container{
         min-width: 320px;
         height: 806px;
+        background-color: burlywood;
     }
     h1{
         font-size: 14px;
@@ -37,6 +44,7 @@
 @media screen and(max-width:768px){
     #my-cv-container{
         max-width: 768px;
+        min-height: none;
     }
     h1{
         font-size: 14px;

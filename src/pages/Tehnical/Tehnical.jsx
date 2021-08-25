@@ -14,6 +14,7 @@ function Tehnical(){
             <AppsHeader/>
             <Apps/>
             <BackToTop/>
+            
             </div>
             <Footer/>
         </div>

@@ -7,10 +7,12 @@
     background-color: lightslategray;
     display: block;
     font-weight: bolder;
+    margin: 0;
+    padding: 0;
    
 }
 .name{
-    font-size: 30px;
+    font-size: 25px;
 }
 
 @media screen and (max-width:485px) {
