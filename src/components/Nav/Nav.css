@@ -22,3 +22,7 @@ a:hover{
     color: black;
     background-color: white;
 }
+#nav{
+    margin-top: 10px;
+    margin-bottom:10px ;
+}

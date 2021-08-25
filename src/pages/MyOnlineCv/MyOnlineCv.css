@@ -3,8 +3,9 @@
     background-size: cover;
     min-height: fit-content;
     min-width: fit-content;
-    height: 100%;
-    
+    min-height: 945px;
+    min-height: calc(100vh - 58px);    
+    overflow: hidden;
 }
 
 .row-fluid{
