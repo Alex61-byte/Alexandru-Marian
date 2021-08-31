@@ -24,11 +24,13 @@
     list-style-type: none;
     text-align: center;
     margin-top: 200px;
+    padding: 0px;
    
 }
 
 .hobby-list li{
     margin-top: 70px;
+    padding: 0px;
 }
 
 

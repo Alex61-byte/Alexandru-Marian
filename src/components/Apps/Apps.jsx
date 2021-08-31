@@ -30,18 +30,18 @@ function Apps(){
     return(
         <div className="container-fluid" >
           <div className="container-fluid" style={{marginTop:150}}>
-            <h3 onClick={show1} className="type-btn">HTML and CSS Apps &#9660;</h3>
+            <h3 onClick={show1} className="type-btn"><span id="cont-animation">&#9660;</span> HTML and CSS Apps</h3>
             {showH? <AppsH/>:null}
             {showH?<h3 onClick={hide1} className="btn-container" >Close  &#x2716;</h3>:null}
 
           </div>
           <div className="container-fluid" style={{marginTop:70}}>
-            <h3 onClick={show2} className="type-btn">HTML,CSS and Javascript Apps &#9660;</h3>
+            <h3 onClick={show2} className="type-btn"><span id="cont-animation">&#9660;</span> HTML,CSS and Javascript Apps </h3>
             {showJ? <AppsJ/>:null}
             {showJ?<h3 onClick={hide2} className="btn-container" >Close  &#x2716;</h3>:null}
           </div>
           <div className="container-fluid" style={{marginTop:70}}>
-            <h3 onClick={show3} className="type-btn">OOP Apps and React Apps &#9660;</h3>
+            <h3 onClick={show3} className="type-btn"> <span id="cont-animation">&#9660;</span>OOP Apps and React Apps</h3>
             {showO? <AppsOR/>:null}
             {showO?<h3 onClick={hide3} className="btn-container" >Close  &#x2716;</h3>:null}
           </div>

@@ -5,6 +5,8 @@
     
 }
 
+
+
 .btn-container:hover{
     cursor: pointer;
     color: #ffffff;
@@ -23,3 +25,15 @@
 }
 
 
+#cont-animation{
+    font-size: 35px;
+    animation-name: fadeIn;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes fadeIn{
+    0%{opacity: 0 }
+    50%{opacity: 0,5;}
+    100%{opacity:1}
+}

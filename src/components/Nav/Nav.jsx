@@ -15,8 +15,12 @@ function Nav() {
         
     });
     
+
+   
+    
+    
     return (
-        <div className="container container-fluid" id="nav" >
+        <div className="container container-fluid " id="nav" >
 
             <ul className="nav nav-tabs" >
                 <li className="nav-item"  >

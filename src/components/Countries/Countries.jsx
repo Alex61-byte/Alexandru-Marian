@@ -19,7 +19,7 @@ function Countries() {
   
     return (
         <div className="container-fluid" id="country-container">
-            <h3 onClick={onClickShow}  className="type-btn">Checkout my favourite visited Countries &#9660; </h3>
+            <h3 onClick={onClickShow}  className="type-btn"><span id="cont-animation">&#9660;</span> Checkout my favourite visited Countries </h3>
            {show? <Germany/>:null}
             {show?<Spain/>:null}
             {show?<OtherCountries/>:null}

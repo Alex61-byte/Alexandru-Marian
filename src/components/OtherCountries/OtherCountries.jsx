@@ -56,7 +56,7 @@ function OtherCountries(){
     return(
            <div className="container-fluid">
 
-                <h3 onClick={onClickShow} className="type-btn">Other Visited Countries&#9660;</h3>
+                <h3 onClick={onClickShow} className="type-btn"><span id="cont-animation">&#9660;</span>Other Visited Countries</h3>
                 {show?countryList:null}
                 {show? <h3 onClick={onClickHide} style={{margin:"15px"} } className="type-btn">Close Other Visited Countries&#9650;</h3>:null }
            </div> 
