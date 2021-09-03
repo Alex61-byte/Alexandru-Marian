@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/alexandru-marian/static/css/main.677746ad.chunk.css",
+    "main.css": "/alexandru-marian/static/css/main.3c3d5c13.chunk.css",
     "main.js": "/alexandru-marian/static/js/main.a22055bd.chunk.js",
     "main.js.map": "/alexandru-marian/static/js/main.a22055bd.chunk.js.map",
     "runtime-main.js": "/alexandru-marian/static/js/runtime-main.affd7b88.js",
@@ -10,7 +10,7 @@
     "static/js/3.346548af.chunk.js": "/alexandru-marian/static/js/3.346548af.chunk.js",
     "static/js/3.346548af.chunk.js.map": "/alexandru-marian/static/js/3.346548af.chunk.js.map",
     "index.html": "/alexandru-marian/index.html",
-    "static/css/main.677746ad.chunk.css.map": "/alexandru-marian/static/css/main.677746ad.chunk.css.map",
+    "static/css/main.3c3d5c13.chunk.css.map": "/alexandru-marian/static/css/main.3c3d5c13.chunk.css.map",
     "static/js/2.9286f1dd.chunk.js.LICENSE.txt": "/alexandru-marian/static/js/2.9286f1dd.chunk.js.LICENSE.txt",
     "static/media/911.e85dbb72.jpg": "/alexandru-marian/static/media/911.e85dbb72.jpg",
     "static/media/911then.b57e25f4.jpg": "/alexandru-marian/static/media/911then.b57e25f4.jpg",
@@ -72,7 +72,7 @@
   "entrypoints": [
     "static/js/runtime-main.affd7b88.js",
     "static/js/2.9286f1dd.chunk.js",
-    "static/css/main.677746ad.chunk.css",
+    "static/css/main.3c3d5c13.chunk.css",
     "static/js/main.a22055bd.chunk.js"
   ]
 }
